@@ -47,8 +47,8 @@ function Home() {
 </section>
 
 
-    <section className="py-16">
-      <div className="container mx-auto">
+    <section className="py-16 ">
+      <div className="container mx-auto overflow-x-hidden">
         
           {/*card*/}
           <motion.div 
@@ -56,7 +56,7 @@ function Home() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="max-w-lg mx-auto bg-[#1190A6] rounded-xl drop-shadow-lg overflow-hidden lg:max-w-7xl">
+          className="max-w-lg mx-auto bg-[#1190A6] rounded-xl drop-shadow-lg lg:max-w-7xl">
           
         <div className="lg:flex">
           {/*image */}
@@ -105,8 +105,8 @@ function Home() {
       
     </section>
 
-    <section>
-  <div className="container mx-auto">
+    <section className="overflow-x-hidden">
+  <div className="container mx-auto ">
     <motion.div 
     variants={fadeIn("up", 0.3)}
     initial="hidden"
