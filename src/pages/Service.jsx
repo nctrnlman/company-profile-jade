@@ -1,7 +1,9 @@
 import React from "react";
+import Image from "../assets/ervice.png"
 
 function Service() {
   return (
+    <>
     <section className="min-h-[85vh] lg:min-h-[90vh] h-[700px] flex items-center overflow-x-hidden bg-[#1190A6]">
       <div className="container justify-between flex flex-col lg:flex-row lg:items-center lg:gap-x-12">
         {/*text */}
@@ -20,6 +22,7 @@ function Service() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
