@@ -48,7 +48,7 @@ function Home() {
 
 
     <section className="py-16 ">
-      <div className="container mx-auto overflow-x-hidden">
+      <div className="container mx-auto ">
         
           {/*card*/}
           <motion.div 
