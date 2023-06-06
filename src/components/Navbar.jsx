@@ -11,9 +11,9 @@ function Navbar() {
 
   return (
     <nav className="bg-[#1190A6] overflow-x-hidden ">
-      <div className="flex justify-between m-auto pt-4 items-center flex-wrap w-full  fixed lg:px-[5%] ">
+      <div className="flex justify-between m-auto pt-4 items-center flex-wrap w-full lg:px-[5%] ">
         <div className="pb-4 pl-5 pt-2 lg:pt-6">
-          <img src={logo} alt="logo perusahaan" width="150px" className="" />
+          <img src={logo} alt="logo perusahaan" width="120px" className="" />
         </div>
 
         <GiHamburgerMenu
@@ -27,7 +27,7 @@ function Navbar() {
               open ? "block" : "hidden"
             } lg:flex lg:gap-7 w-full lg:w-auto text-white  bg-black/20 lg:bg-transparent `}
           >
-            <ul className="lg:flex lg:justify-between lg:gap-7 text-lg lg:text-2xl ">
+            <ul className="lg:flex lg:justify-between lg:gap-7 text-lg lg:text-xl ">
               <li className="hover:bg-black/10 block  py-2 cursor-pointer lg:hover:bg-transparent pl-2">
                 <button
                   className="lg:hover:text-[#004c9b]"
@@ -45,7 +45,9 @@ function Navbar() {
                 </button>
               </li>
               <li className="hover:bg-black/10 block  py-2 cursor-pointer lg:hover:bg-transparent pl-2">
-                <button className="lg:hover:text-[#004c9b]">Contact</button>
+                <button className="lg:hover:text-[#004c9b]"
+                onClick={() => navigate('/contact')}
+                >Contact</button>
               </li>
             </ul>
           </div>
@@ -77,8 +79,15 @@ function Navbar() {
                 </button>
               </li>
               <li className="hover:bg-black/10 block  py-2 cursor-pointer lg:hover:bg-transparent pl-2">
-                <button className="lg:hover:text-[#004c9b]">Contact</button>
+                <button
+                  className="lg:hover:text-[#004c9b]"
+                  onClick={() => navigate("/contact")}
+                >
+                  Contact
+                </button>
               </li>
+              
+           
             </ul>
           </motion.div>
         )}
