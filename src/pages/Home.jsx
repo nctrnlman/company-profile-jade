@@ -47,8 +47,8 @@ function Home() {
 </section>
 
 
-    <section className="py-16">
-      <div className="container mx-auto">
+    <section className="py-16 overflow-hidden">
+      <div className="container mx-auto ">
         
           {/*card*/}
           <motion.div 
@@ -56,7 +56,7 @@ function Home() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="max-w-lg mx-auto bg-[#1190A6] rounded-xl drop-shadow-lg overflow-hidden lg:max-w-7xl">
+          className="max-w-lg mx-auto bg-[#1190A6] rounded-xl drop-shadow-lg lg:max-w-7xl">
           
         <div className="lg:flex">
           {/*image */}
@@ -65,8 +65,8 @@ function Home() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="lg:shrink-0 bg-black">
-            <img className="h-80 w-full object-cover lg:h-full lg:w-80" src={Image1} alt=""/> 
+          className="lg:shrink-0 ">
+            <img className="h-80 w-full object-cover lg:h-full lg:w-80 rounded-xl" src={Image1} alt=""/> 
           </motion.div>
 
               <div className="p-6 lg:p-16">
@@ -105,8 +105,8 @@ function Home() {
       
     </section>
 
-    <section>
-  <div className="container mx-auto">
+    <section className="overflow-x-hidden">
+  <div className="container mx-auto ">
     <motion.div 
     variants={fadeIn("up", 0.3)}
     initial="hidden"
@@ -124,7 +124,7 @@ function Home() {
       whileInView={"show"}
       viewport={{ once: false, amount: 0.3 }}
       className="text-center py-8 bg-white">
-        <img src={Image2} className="mx-auto mb-4 w-72 rounded-lg lg:w-auto lg:mb-4 max-w-xs transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-black/40" />
+        <img src={Image2} className="mx-auto mb-4 w-72 rounded-lg lg:w-auto lg:mb-4 max-w-xs transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-black/40" alt=""/>
           <div className="py-5">
             <h5 className="font-bold text-gray-700 text-3xl leading-7 mb-1">Khaled Makkawirelang</h5>
             <p className="text-2xl font-semibold text-[#1190A6]">Front End Developer</p>
@@ -138,7 +138,7 @@ function Home() {
       whileInView={"show"}
       viewport={{ once: false, amount: 0.3 }}
       className="text-center py-8 bg-white">
-        <img src={Image3} className="mx-auto mb-4 w-72 rounded-lg lg:w-auto lg:mb-4 max-w-xs transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-black/40" />
+        <img src={Image3} className="mx-auto mb-4 w-72 rounded-lg lg:w-auto lg:mb-4 max-w-xs transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-black/40" alt="" />
           <div className="py-5">
             <h5 className="font-bold text-gray-700 text-3xl leading-7 mb-1">Rhazes Devino Alhambra</h5>
             <p className="text-2xl font-semibold text-[#1190A6]">Back End Developer</p>
