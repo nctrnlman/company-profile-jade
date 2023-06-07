@@ -10,8 +10,8 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-[#1190A6] overflow-x-hidden ">
-      <div className="flex justify-between m-auto pt-4 items-center flex-wrap w-full lg:px-[5%] ">
+    <nav className="bg-[#1190A6] overflow-x-hidden h-[110px]">
+      <div className="flex justify-between m-auto pt-4 items-center flex-wrap w-full lg:px-[5%] absolute ">
         <div className="pb-4 pl-5 pt-2 lg:pt-6">
           <img src={logo} alt="logo perusahaan" width="120px" className="" />
         </div>
