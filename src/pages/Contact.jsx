@@ -100,7 +100,7 @@ function Contact() {
     </section>
 
     <section>
-      <div className="container mx-auto py-24">
+      <div className="container mx-auto py-14">
         <motion.div 
         variants={fadeIn("up", 0.5)}
         initial="hidden"
@@ -114,12 +114,13 @@ function Contact() {
               </p>         
         </motion.div>
 
+        <div className="py-8">
         <motion.div 
         variants={fadeIn("up", 0.3)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.3 }}
-        className='max-w-lg mx-auto rounded-xl lg:max-w-[1400px] overflow-x-hidden flex flex-col h-[510px] lg:h-[350px] lg:flex-row  bg-[#1190A6]  '>
+        className='max-w-lg mx-auto rounded-xl lg:max-w-[1400px] overflow-x-hidden flex flex-col h-[510px] lg:h-[350px] lg:flex-row bg-[#1190A6]  '>
           
           <motion.div 
           variants={fadeIn("right", 0.5)}
@@ -152,8 +153,9 @@ function Contact() {
                 </p>
             </div>
           </motion.div>
-
+          
         </motion.div>
+        </div>
       </div>
     </section>
     </>
