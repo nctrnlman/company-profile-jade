@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -99,7 +100,7 @@ function Contact() {
     </section>
 
     <section>
-      <div className="container mx-auto py-24">
+      <div className="container mx-auto py-14">
         <motion.div 
         variants={fadeIn("up", 0.5)}
         initial="hidden"
@@ -113,12 +114,13 @@ function Contact() {
               </p>         
         </motion.div>
 
+        <div className="py-8">
         <motion.div 
         variants={fadeIn("up", 0.3)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.3 }}
-        className='max-w-lg mx-auto rounded-xl lg:max-w-[1400px] overflow-x-hidden flex flex-col h-[510px] lg:h-[350px] lg:flex-row  bg-[#1190A6]  '>
+        className='max-w-lg mx-auto rounded-xl lg:max-w-[1400px] overflow-x-hidden flex flex-col h-[510px] lg:h-[350px] lg:flex-row bg-[#1190A6]  '>
           
           <motion.div 
           variants={fadeIn("right", 0.5)}
@@ -126,7 +128,7 @@ function Contact() {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
           className='flex flex-col lg:h-[350px] '>
-            <iframe 
+            <iframe
               className='rounded-xl lg:h-full lg:w-[650px] mx-5 py-5 lg:rounded-xl lg:mx-5 lg:py-5 '
               src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d405691.57240383344!2d-122.3212843181106!3d37.40247298383319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20CA%2C%20USA!5e0!3m2!1sen!2sid!4v1685858186588!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'>
             </iframe>
@@ -151,8 +153,9 @@ function Contact() {
                 </p>
             </div>
           </motion.div>
-
+          
         </motion.div>
+        </div>
       </div>
     </section>
     </>
