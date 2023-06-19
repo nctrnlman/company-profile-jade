@@ -129,7 +129,7 @@ function Contact() {
           viewport={{ once: false, amount: 0.3 }}
           className='flex flex-col lg:h-[350px] '>
             <iframe
-              className='rounded-xl lg:h-full lg:w-[650px] mx-5 py-5 lg:rounded-xl lg:mx-5 lg:py-5 '
+              className='rounded-xl lg:h-full lg:w-[650px] mx-5 py-5 lg:rounded-xl lg:mx-5 lg:py-5'
               src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d405691.57240383344!2d-122.3212843181106!3d37.40247298383319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20CA%2C%20USA!5e0!3m2!1sen!2sid!4v1685858186588!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'>
             </iframe>
           </motion.div>
