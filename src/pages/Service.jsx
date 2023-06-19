@@ -41,7 +41,7 @@ function Service() {
       </div>
     </section>
 
-    <section className="py-16">
+    <section className="py-16 bg-white">
       <div className="container mx-auto">
         {/* text */}
       <motion.div 

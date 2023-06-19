@@ -46,7 +46,7 @@ function Home() {
   </div>
 </section>
 
-    <section className="py-16 overflow-hidden">
+    <section className="py-16 overflow-hidden bg-white">
       <div className="container mx-auto ">
         
           {/*card*/}
@@ -104,7 +104,7 @@ function Home() {
       
     </section>
 
-    <section className="overflow-x-hidden">
+    <section className="overflow-x-hidden bg-white">
   <div className="container mx-auto ">
     <motion.div 
     variants={fadeIn("up", 0.3)}

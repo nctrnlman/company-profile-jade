@@ -16,7 +16,7 @@ function Contact() {
       };
   return (
     <>
-    <section className='overflow-x-hidden'>
+    <section className='overflow-x-hidden bg-white'>
         <div className="container mx-auto">
           <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:py-20 lg:gap-x-44">
           {/* text */}
@@ -99,7 +99,7 @@ function Contact() {
           
     </section>
 
-    <section>
+    <section className='bg-white'>
       <div className="container mx-auto py-14">
         <motion.div 
         variants={fadeIn("up", 0.5)}
