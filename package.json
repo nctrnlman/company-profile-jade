@@ -1,5 +1,6 @@
 {
   "name": "company-profile-jade",
+  "homepage": "https://jadeit.tech/company-profile-jade/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
